@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Ilé",
+    "music": "Orin",
+    "events": "Àwọn Ètò",
+    "videos": "Fídíò",
+    "about": "Nípa Rẹ̀",
+    "contact": "Kàn Sí Wa",
+    "menu": "Àṣàyàn"
+  },
+  "theme": {
+    "toggle": "Yí ìmọ́lẹ̀ / òkùnkùn padà"
+  },
+  "language": {
+    "label": "Èdè"
+  },
+  "hero": {
+    "tagline": "Orin ìyìn tí ń gbé ọkàn sókè tí ó sì ń tọ́ka sí Jésù Kristi.",
+    "listen": "Gbọ́ Báyìí",
+    "watch": "Wo Fídíò",
+    "nowPlaying": "Ń dún báyìí",
+    "s1Eyebrow": "Òjíṣẹ́ Ìhìnrere · Aṣíwájú Ìjọsìn",
+    "s1Title": "Ohùn tí a gbé sókè nínú ìjọsìn",
+    "s1Text": "Orin ìhìnrere, ìjọsìn láàyè àti ìyìn tí ń tọ́ka sí Jésù Kristi.",
+    "s2Eyebrow": "Àwo orin tuntun",
+    "s2Title": "Ara Edide ti jáde",
+    "s2Text": "Gbọ́ ọ lórí Audiomack, Spotify àti YouTube.",
+    "s3Eyebrow": "Ìjọsìn láàyè",
+    "s3Title": "Pe Fehintola láti ṣe ìránṣẹ́",
+    "s3Text": "Ó wà fún ètò ìjọ, ìpàdé ìhìnrere, eré orin àti àwọn ayẹyẹ pàtàkì."
+  },
+  "home": {
+    "latestMusic": "Orin Tuntun",
+    "upcomingEvents": "Àwọn Ètò Tó Ń Bọ̀",
+    "latestVideos": "Fídíò Tuntun",
+    "awards": "Àwọn Àmì Ẹ̀yẹ",
+    "moments": "Àwọn Àkókò",
+    "viewAll": "Wo gbogbo rẹ̀",
+    "ctaTitle": "Pe Fehintola",
+    "ctaText": "Fún ètò ìjọ, ìpàdé ìhìnrere, eré orin, ìgbéyàwó àti àwọn ayẹyẹ pàtàkì.",
+    "ctaButton": "Kàn sí wa",
+    "aboutEyebrow": "Mọ̀ Olórin Náà",
+    "aboutTitle": "Ohùn tó wà lẹ́yìn orin náà",
+    "readMore": "Ka ìtàn rẹ̀",
+    "statSongs": "Orin tí a ti gbé jáde",
+    "streamTitle": "Gbọ́ níbikíbi",
+    "streamText": "Rí orin Fehintola lórí pèpéle tí o fẹ́ràn.",
+    "openOn": "Ṣí i",
+    "videosText": "Fídíò orin, eré orin àti àwọn míràn.",
+    "momentsText": "Àwòrán, eré orin àti ohun tó ń ṣẹlẹ̀ lẹ́yìn ìran.",
+    "statAlbums": "Àwo orin",
+    "statSubs": "Olùforúkọsílẹ̀ YouTube",
+    "statViews": "Ìwòran YouTube"
+  },
+  "music": {
+    "title": "Orin",
+    "subtitle": "Gbọ́ àwọn orin lórí Audiomack.",
+    "listen": "Gbọ́",
+    "profile": "Gbogbo orin lórí Audiomack",
+    "empty": "Orin tuntun ń bọ̀ láìpẹ́.",
+    "single": "Orin Kan",
+    "album": "Àwo Orin",
+    "ep": "EP"
+  },
+  "events": {
+    "title": "Àwọn Ètò",
+    "subtitle": "Wo Fehintola lórí ìtàgé.",
+    "upcoming": "Tó Ń Bọ̀",
+    "past": "Àwọn ètò tó ti kọjá",
+    "tickets": "Tíkẹ́ẹ̀tì / Àlàyé",
+    "empty": "Kò sí ètò kankan lọ́wọ́lọ́wọ́. Padà wá láìpẹ́.",
+    "noPast": "Kò sí ètò tó ti kọjá síbẹ̀.",
+    "pastTag": "Ó ti kọjá"
+  },
+  "videos": {
+    "title": "Fídíò",
+    "subtitle": "Wò ó lórí YouTube.",
+    "watch": "Wò ó",
+    "channel": "Lọ sí ikanni YouTube",
+    "empty": "Fídíò ń bọ̀ láìpẹ́."
+  },
+  "about": {
+    "title": "Nípa Rẹ̀",
+    "bio": "Fehintola Onabanjo jẹ́ òjíṣẹ́ ìhìnrere, aṣíwájú ìjọsìn àti olórin ọmọ Nàìjíríà. Àwọn orin rẹ̀ ní èdè Yorùbá àti Gẹ̀ẹ́sì, bíi Omo Baba, Iji Aye àti àwọn àwo orin Itura àti Ara Edide, ń gbé iṣẹ́ kan: ìgbàlà àti ìyè tuntun nínú Jésù Kristi.\n\nÓ ń ṣe ìjọsìn láàyè káàkiri Nàìjíríà pẹ̀lú àwọn òjíṣẹ́ ìhìnrere mìíràn, ó sì ń pín orin àti ìròyìn iṣẹ́ ìránṣẹ́ rẹ̀ lórí YouTube àti ìkànnì àjọlò.",
+    "awards": "Àwọn Àmì Ẹ̀yẹ",
+    "noAwards": "Àwọn àmì ẹ̀yẹ yóò hàn níbí.",
+    "gallery": "Àwòrán"
+  },
+  "contact": {
+    "title": "Kàn Sí Wa",
+    "subtitle": "Fún ìpè sí ètò, àjọṣe àti ìbéèrè.",
+    "email": "Ímeèlì",
+    "phone": "Fóònù",
+    "whatsapp": "WhatsApp",
+    "follow": "Tẹ̀lé Fehintola",
+    "notSet": "Àwọn àlàyé ìkànsí ń bọ̀ láìpẹ́."
+  },
+  "footer": {
+    "rights": "Gbogbo ẹ̀tọ́ wà ní ìpamọ́.",
+    "quickLinks": "Àwọn ìjápọ̀",
+    "contact": "Ìkànsí"
+  }
+}

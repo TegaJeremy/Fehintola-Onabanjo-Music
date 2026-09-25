@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "music": "Music",
+    "events": "Events",
+    "videos": "Videos",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "theme": {
+    "toggle": "Switch light / dark mode"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "tagline": "Gospel music that lifts the heart and points to Jesus Christ.",
+    "listen": "Listen now",
+    "watch": "Watch videos",
+    "nowPlaying": "Now playing",
+    "s1Eyebrow": "Gospel Minister · Worship Leader",
+    "s1Title": "A voice raised in worship",
+    "s1Text": "Original gospel music, live ministrations and worship that points to Jesus Christ.",
+    "s2Eyebrow": "New album",
+    "s2Title": "Ara Edide is out now",
+    "s2Text": "Stream it on Audiomack, Spotify and YouTube.",
+    "s3Eyebrow": "Live ministrations",
+    "s3Title": "Invite Fehintola to minister",
+    "s3Text": "Available for church programmes, crusades, concerts and special events."
+  },
+  "home": {
+    "aboutEyebrow": "Meet the artist",
+    "aboutTitle": "The voice behind the music",
+    "readMore": "Read her story",
+    "statSongs": "Songs released",
+    "latestMusic": "Latest Music",
+    "streamTitle": "Stream everywhere",
+    "streamText": "Find Fehintola's music on your favourite platform.",
+    "openOn": "Open",
+    "latestVideos": "Latest Videos",
+    "videosText": "Music videos, live sessions and more.",
+    "moments": "Moments",
+    "momentsText": "Photoshoots, performances and behind-the-scenes.",
+    "upcomingEvents": "Upcoming Events",
+    "awards": "Awards & Recognition",
+    "viewAll": "View all",
+    "ctaTitle": "Book Fehintola",
+    "ctaText": "For church programmes, crusades, concerts, weddings and special events.",
+    "ctaButton": "Get in touch",
+    "statAlbums": "Albums",
+    "statSubs": "YouTube subscribers",
+    "statViews": "YouTube views"
+  },
+  "music": {
+    "title": "Music",
+    "subtitle": "Stream the songs on Audiomack.",
+    "listen": "Listen",
+    "profile": "All music on Audiomack",
+    "empty": "New music is coming soon.",
+    "single": "Single",
+    "album": "Album",
+    "ep": "EP"
+  },
+  "events": {
+    "title": "Events",
+    "subtitle": "See Fehintola live.",
+    "upcoming": "Upcoming",
+    "past": "Past events",
+    "tickets": "Tickets / Info",
+    "empty": "No upcoming events right now. Check back soon.",
+    "noPast": "No past events yet.",
+    "pastTag": "Past"
+  },
+  "videos": {
+    "title": "Videos",
+    "subtitle": "Watch on YouTube.",
+    "watch": "Watch",
+    "channel": "Visit YouTube channel",
+    "empty": "Videos are coming soon."
+  },
+  "about": {
+    "title": "About",
+    "bio": "Fehintola Onabanjo is a Nigerian gospel minister, worship leader and recording artist. Her Yoruba and English gospel songs, including Omo Baba, Iji Aye and the albums Itura and Ara Edide, carry one message: salvation and new life in Jesus Christ.\n\nShe ministers at live worship programmes across Nigeria alongside other gospel ministers, and shares her music, ministrations and ministry updates on YouTube and social media.",
+    "awards": "Awards & Recognition",
+    "noAwards": "Awards will be listed here.",
+    "gallery": "Gallery"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "For bookings, features and enquiries.",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "follow": "Follow Fehintola",
+    "notSet": "Contact details coming soon."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick links",
+    "contact": "Contact"
+  }
+}

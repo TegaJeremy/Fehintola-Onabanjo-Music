@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Gida",
+    "music": "Waƙoƙi",
+    "events": "Taruka",
+    "videos": "Bidiyo",
+    "about": "Game da Ita",
+    "contact": "Tuntuɓe Mu",
+    "menu": "Menu"
+  },
+  "theme": {
+    "toggle": "Canja haske / duhu"
+  },
+  "language": {
+    "label": "Harshe"
+  },
+  "hero": {
+    "tagline": "Waƙar bishara da ke ɗaga zuciya kuma take nuna Yesu Almasihu.",
+    "listen": "Saurara Yanzu",
+    "watch": "Kalli Bidiyo",
+    "nowPlaying": "Ana kunnawa yanzu",
+    "s1Eyebrow": "Mai Hidimar Bishara · Jagorar Yabo",
+    "s1Title": "Muryar da aka ɗaga cikin yabo",
+    "s1Text": "Waƙoƙin bishara, hidimar yabo kai tsaye da sujada mai nuna Yesu Almasihu.",
+    "s2Eyebrow": "Sabon kundi",
+    "s2Title": "Ara Edide ya fito",
+    "s2Text": "Saurare shi a Audiomack, Spotify da YouTube.",
+    "s3Eyebrow": "Hidimar yabo kai tsaye",
+    "s3Title": "Gayyaci Fehintola don hidima",
+    "s3Text": "Tana nan don shirye-shiryen coci, taron bishara, kide-kide da taruka na musamman."
+  },
+  "home": {
+    "aboutEyebrow": "Ku san mawaƙiyar",
+    "aboutTitle": "Muryar da ke bayan waƙar",
+    "readMore": "Karanta labarinta",
+    "statSongs": "Waƙoƙin da aka fitar",
+    "latestMusic": "Sababbin Waƙoƙi",
+    "streamTitle": "Saurara ko'ina",
+    "streamText": "Nemo waƙoƙin Fehintola a dandalin da kake so.",
+    "openOn": "Buɗe",
+    "latestVideos": "Sababbin Bidiyo",
+    "videosText": "Bidiyon waƙa, wasannin kai tsaye da sauransu.",
+    "moments": "Lokuta Masu Daɗi",
+    "momentsText": "Hotuna, wasanni da abin da ke faruwa a bayan fage.",
+    "upcomingEvents": "Taruka Masu Zuwa",
+    "awards": "Kyaututtuka da Karramawa",
+    "viewAll": "Duba duka",
+    "ctaTitle": "Gayyaci Fehintola",
+    "ctaText": "Don shirye-shiryen coci, taron bishara, kide-kide, bukukuwan aure da taruka na musamman.",
+    "ctaButton": "Tuntuɓe mu",
+    "statAlbums": "Kundaye",
+    "statSubs": "Masu biyan YouTube",
+    "statViews": "Kallon YouTube"
+  },
+  "music": {
+    "title": "Waƙoƙi",
+    "subtitle": "Saurari waƙoƙin a Audiomack.",
+    "listen": "Saurara",
+    "profile": "Duk waƙoƙi a Audiomack",
+    "empty": "Sabuwar waƙa na zuwa nan ba da daɗewa ba.",
+    "single": "Waƙa Ɗaya",
+    "album": "Kundi",
+    "ep": "EP"
+  },
+  "events": {
+    "title": "Taruka",
+    "subtitle": "Ku zo ku ga Fehintola kai tsaye.",
+    "upcoming": "Masu zuwa",
+    "past": "Tarukan da suka wuce",
+    "tickets": "Tikiti / Bayani",
+    "empty": "Babu taro a yanzu. Ku dawo nan gaba.",
+    "noPast": "Babu tarukan da suka wuce tukuna.",
+    "pastTag": "Ya wuce"
+  },
+  "videos": {
+    "title": "Bidiyo",
+    "subtitle": "Kalla a YouTube.",
+    "watch": "Kalla",
+    "channel": "Je tashar YouTube",
+    "empty": "Bidiyo na zuwa nan ba da daɗewa ba."
+  },
+  "about": {
+    "title": "Game da Ita",
+    "bio": "Fehintola Onabanjo mai hidimar bishara ce, jagorar yabo kuma mawaƙiya 'yar Najeriya. Waƙoƙinta a Yarbanci da Turanci, kamar Omo Baba, Iji Aye da kundayen Itura da Ara Edide, suna ɗauke da saƙo ɗaya: ceto da sabuwar rayuwa cikin Yesu Almasihu.\n\nTana hidima a shirye-shiryen yabo kai tsaye a faɗin Najeriya tare da sauran masu hidimar bishara, kuma tana raba waƙoƙinta da labaran hidimarta a YouTube da kafofin sada zumunta.",
+    "awards": "Kyaututtuka da Karramawa",
+    "noAwards": "Za a jera kyaututtuka a nan.",
+    "gallery": "Hotuna"
+  },
+  "contact": {
+    "title": "Tuntuɓe Mu",
+    "subtitle": "Don gayyata, haɗin gwiwa da tambayoyi.",
+    "email": "Imel",
+    "phone": "Waya",
+    "whatsapp": "WhatsApp",
+    "follow": "Bi Fehintola",
+    "notSet": "Bayanan tuntuɓa na zuwa nan ba da daɗewa ba."
+  },
+  "footer": {
+    "rights": "Duk haƙƙoƙi an kiyaye su.",
+    "quickLinks": "Hanyoyin sauri",
+    "contact": "Tuntuɓa"
+  }
+}

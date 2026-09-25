@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Ụlọ",
+    "music": "Egwu",
+    "events": "Mmemme",
+    "videos": "Vidiyo",
+    "about": "Maka Ya",
+    "contact": "Kpọtụrụ Anyị",
+    "menu": "Menu"
+  },
+  "theme": {
+    "toggle": "Gbanwee ìhè / ọchịchịrị"
+  },
+  "language": {
+    "label": "Asụsụ"
+  },
+  "hero": {
+    "tagline": "Egwu ozi ọma na-ebuli obi ma na-atụ aka na Jizọs Kraịst.",
+    "listen": "Gee Ugbu a",
+    "watch": "Lee Vidiyo",
+    "nowPlaying": "Na-akpọ ugbu a",
+    "s1Eyebrow": "Onye Ozi Ọma · Onye Ndu Ofufe",
+    "s1Title": "Olu e buliri n'ofufe",
+    "s1Text": "Egwu ozi ọma, ofufe ndụ na otuto na-atụ aka na Jizọs Kraịst.",
+    "s2Eyebrow": "Album ọhụrụ",
+    "s2Title": "Ara Edide apụtala",
+    "s2Text": "Gee ya na Audiomack, Spotify na YouTube.",
+    "s3Eyebrow": "Ofufe ndụ",
+    "s3Title": "Kpọọ Fehintola ka o jee ozi",
+    "s3Text": "Ọ dị njikere maka mmemme ụka, nzukọ ozi ọma, egwu na ememme pụrụ iche."
+  },
+  "home": {
+    "latestMusic": "Egwu Ọhụrụ",
+    "upcomingEvents": "Mmemme Na-abịa",
+    "latestVideos": "Vidiyo Ọhụrụ",
+    "awards": "Ihe Nrite na Nsọpụrụ",
+    "moments": "Oge Ndị Ahụ",
+    "viewAll": "Hụ ha niile",
+    "ctaTitle": "Kpọọ Fehintola",
+    "ctaText": "Maka mmemme ụka, nzukọ ozi ọma, egwu, agbamakwụkwọ na ememme pụrụ iche.",
+    "ctaButton": "Kpọtụrụ anyị",
+    "aboutEyebrow": "Mara Onye Egwu",
+    "aboutTitle": "Olu dị n'azụ egwu ahụ",
+    "readMore": "Gụọ akụkọ ya",
+    "statSongs": "Egwu ewepụtara",
+    "streamTitle": "Gee ebe ọ bụla",
+    "streamText": "Chọta egwu Fehintola na ikpo okwu ị hụrụ n'anya.",
+    "openOn": "Mepee",
+    "videosText": "Vidiyo egwu, ihe ngosi ndụ na ndị ọzọ.",
+    "momentsText": "Foto, ihe ngosi na ihe na-eme n'azụ ihe nkiri.",
+    "statAlbums": "Album",
+    "statSubs": "Ndị debanyere aha na YouTube",
+    "statViews": "Nlele YouTube"
+  },
+  "music": {
+    "title": "Egwu",
+    "subtitle": "Gee egwu ya na Audiomack.",
+    "listen": "Gee",
+    "profile": "Egwu niile na Audiomack",
+    "empty": "Egwu ọhụrụ na-abịa n'oge na-adịghị anya.",
+    "single": "Otu Egwu",
+    "album": "Album",
+    "ep": "EP"
+  },
+  "events": {
+    "title": "Mmemme",
+    "subtitle": "Hụ Fehintola ka ọ na-abụ abụ.",
+    "upcoming": "Na-abịa",
+    "past": "Mmemme gara aga",
+    "tickets": "Tiketi / Ozi",
+    "empty": "Enweghị mmemme ugbu a. Lọghachi n'oge na-adịghị anya.",
+    "noPast": "Enweghị mmemme gara aga ka.",
+    "pastTag": "Gara aga"
+  },
+  "videos": {
+    "title": "Vidiyo",
+    "subtitle": "Lee na YouTube.",
+    "watch": "Lee",
+    "channel": "Gaa na ọwa YouTube",
+    "empty": "Vidiyo na-abịa n'oge na-adịghị anya."
+  },
+  "about": {
+    "title": "Maka Ya",
+    "bio": "Fehintola Onabanjo bụ onye ozi ọma, onye ndu ofufe na onye egwu si Naịjirịa. Egwu ya n'asụsụ Yoruba na Bekee, dịka Omo Baba, Iji Aye na album Itura na Ara Edide, na-ebu otu ozi: nzọpụta na ndụ ọhụrụ n'ime Jizọs Kraịst.\n\nỌ na-eje ozi n'mmemme ofufe n'ofe Naịjirịa ya na ndị ozi ọma ndị ọzọ, ma na-ekesa egwu ya na ozi ya na YouTube na mgbasa ozi.",
+    "awards": "Ihe Nrite na Nsọpụrụ",
+    "noAwards": "A ga-edepụta ihe nrite ebe a.",
+    "gallery": "Foto"
+  },
+  "contact": {
+    "title": "Kpọtụrụ Anyị",
+    "subtitle": "Maka ịkpọ oku, mmekọ na ajụjụ.",
+    "email": "Email",
+    "phone": "Ekwentị",
+    "whatsapp": "WhatsApp",
+    "follow": "Soro Fehintola",
+    "notSet": "Nkọwa kọntaktị na-abịa n'oge na-adịghị anya."
+  },
+  "footer": {
+    "rights": "Ikike niile echekwara.",
+    "quickLinks": "Njikọ ngwa ngwa",
+    "contact": "Kọntaktị"
+  }
+}

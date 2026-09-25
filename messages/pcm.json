@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "music": "Music",
+    "events": "Show Dem",
+    "videos": "Video Dem",
+    "about": "About Her",
+    "contact": "Holla Us",
+    "menu": "Menu"
+  },
+  "theme": {
+    "toggle": "Change am to light / dark"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "tagline": "Gospel music wey dey lift heart and point to Jesus Christ.",
+    "listen": "Hear am now",
+    "watch": "Watch video",
+    "nowPlaying": "Dey play now",
+    "s1Eyebrow": "Gospel Minister · Worship Leader",
+    "s1Title": "Voice wey dey raise worship",
+    "s1Text": "Original gospel songs, live ministration and worship wey dey point to Jesus Christ.",
+    "s2Eyebrow": "New album",
+    "s2Title": "Ara Edide don land",
+    "s2Text": "Hear am for Audiomack, Spotify and YouTube.",
+    "s3Eyebrow": "Live ministration",
+    "s3Title": "Invite Fehintola make she minister",
+    "s3Text": "She dey available for church programme, crusade, concert and special occasion."
+  },
+  "home": {
+    "latestMusic": "New Music",
+    "upcomingEvents": "Show Wey Dey Come",
+    "latestVideos": "New Video Dem",
+    "awards": "Award Dem",
+    "moments": "Sweet Moments",
+    "viewAll": "See everything",
+    "ctaTitle": "Book Fehintola",
+    "ctaText": "For church programme, crusade, concert, wedding and special occasion.",
+    "ctaButton": "Holla us",
+    "aboutEyebrow": "Meet the artist",
+    "aboutTitle": "The voice wey dey behind the music",
+    "readMore": "Read her story",
+    "statSongs": "Songs wey don drop",
+    "streamTitle": "Hear am anywhere",
+    "streamText": "Find Fehintola music for the platform wey you like.",
+    "openOn": "Open",
+    "videosText": "Music video, live session and plenty more.",
+    "momentsText": "Photoshoot, show and wetin happen for backstage.",
+    "statAlbums": "Albums",
+    "statSubs": "YouTube subscribers",
+    "statViews": "YouTube views"
+  },
+  "music": {
+    "title": "Music",
+    "subtitle": "Hear the songs for Audiomack.",
+    "listen": "Hear am",
+    "profile": "All the music for Audiomack",
+    "empty": "New music dey come soon.",
+    "single": "Single",
+    "album": "Album",
+    "ep": "EP"
+  },
+  "events": {
+    "title": "Show Dem",
+    "subtitle": "Come see Fehintola live.",
+    "upcoming": "Wey dey come",
+    "past": "Show wey don pass",
+    "tickets": "Ticket / Info",
+    "empty": "No show dey for now. Check back soon.",
+    "noPast": "No past show yet.",
+    "pastTag": "Don pass"
+  },
+  "videos": {
+    "title": "Video Dem",
+    "subtitle": "Watch am for YouTube.",
+    "watch": "Watch",
+    "channel": "Go YouTube channel",
+    "empty": "Video dey come soon."
+  },
+  "about": {
+    "title": "About Her",
+    "bio": "Fehintola Onabanjo na Naija gospel minister, worship leader and recording artist. Her Yoruba and English gospel songs, like Omo Baba, Iji Aye and the albums Itura and Ara Edide, dey carry one message: salvation and new life for Jesus Christ.\n\nShe dey minister for live worship programme across Naija with other gospel ministers, and she dey share her music and ministry update for YouTube and social media.",
+    "awards": "Award Dem",
+    "noAwards": "Award dem go show here.",
+    "gallery": "Pictures"
+  },
+  "contact": {
+    "title": "Holla Us",
+    "subtitle": "For booking, feature and any question.",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "follow": "Follow Fehintola",
+    "notSet": "Contact details dey come soon."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick links",
+    "contact": "Contact"
+  }
+}
