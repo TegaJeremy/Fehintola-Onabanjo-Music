@@ -64,37 +64,6 @@ export default function HeroSlider({
         exit: { opacity: 0 },
       };
 
-  const controls = (
-    <div className="flex items-center gap-4">
-      <span className="font-display text-sm tabular-nums text-muted">
-        <span className="text-lg text-fg">{String(index + 1).padStart(2, "0")}</span> /{" "}
-        {String(slides.length).padStart(2, "0")}
-      </span>
-      <div className="flex gap-2">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            type="button"
-            onClick={() => go(i)}
-            aria-label={`Slide ${i + 1}`}
-            className="relative h-1 w-10 overflow-hidden rounded-full bg-fg/15 sm:w-12"
-          >
-            {i === index && (
-              <motion.span
-                key={`bar-${index}`}
-                className="absolute inset-y-0 left-0 bg-accent"
-                initial={{ width: "0%" }}
-                animate={{ width: "100%" }}
-                transition={{ duration: DURATION / 1000, ease: "linear" }}
-              />
-            )}
-            {i < index && <span className="absolute inset-0 bg-accent/60" />}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
-
   const words = slide.title.split(" ");
 
   return (
@@ -129,10 +98,6 @@ export default function HeroSlider({
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-bg via-bg/70 to-transparent md:h-40" />
         <div className="absolute inset-y-0 left-0 hidden w-1/2 bg-gradient-to-r from-bg via-bg/40 to-transparent md:block" />
 
-        {/* phone: slide controls sit on the photo */}
-        <div className="container-x absolute inset-x-0 top-20 flex justify-end md:hidden">
-          <div className="rounded-full bg-bg/70 px-3 py-1.5 backdrop-blur">{controls}</div>
-        </div>
       </div>
 
       {/* ---------- mouse spotlight (desktop) ---------- */}
@@ -233,8 +198,6 @@ export default function HeroSlider({
         </div>
       </div>
 
-      {/* ---------- desktop slide controls ---------- */}
-      <div className="container-x absolute inset-x-0 bottom-8 hidden md:block">{controls}</div>
 
       {/* scroll hint */}
       <div className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 md:block">
