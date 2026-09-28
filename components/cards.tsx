@@ -3,6 +3,7 @@ import {
   FiAward,
   FiCalendar,
   FiExternalLink,
+  FiHeadphones,
   FiMapPin,
   FiPlay,
 } from "react-icons/fi";
@@ -131,7 +132,8 @@ export function SongCard({
 function PlatformIcon({ url }: { url: string }) {
   if (/youtu\.?be/.test(url)) return <SiYoutube />;
   if (url.includes("spotify")) return <SiSpotify />;
-  return <SiAudiomack />;
+  if (url.includes("audiomack")) return <SiAudiomack />;
+  return <FiHeadphones />;
 }
 
 export function VideoCard({

@@ -12,9 +12,11 @@ const FOLDER = process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER;
 export default function ImageUpload({
   value,
   onChange,
+  kind = "image",
 }: {
   value: string;
   onChange: (url: string) => void;
+  kind?: "image" | "video";
 }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -32,7 +34,7 @@ export default function ImageUpload({
       body.append("upload_preset", PRESET);
       if (FOLDER) body.append("folder", FOLDER);
       const res = await fetch(
-        `https://api.cloudinary.com/v1_1/${CLOUD}/image/upload`,
+        `https://api.cloudinary.com/v1_1/${CLOUD}/${kind}/upload`,
         { method: "POST", body }
       );
       const json = await res.json();
@@ -49,17 +51,17 @@ export default function ImageUpload({
     <div className="space-y-2">
       {value ? (
         <div className="relative inline-block">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={value}
-            alt=""
-            className="h-40 w-40 rounded-xl border border-line object-cover"
-          />
+          {kind === "video" ? (
+            <video src={value} muted controls className="h-40 w-72 rounded-xl border border-line object-cover" />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={value} alt="" className="h-40 w-40 rounded-xl border border-line object-cover" />
+          )}
           <button
             type="button"
             onClick={() => onChange("")}
             className="absolute -right-2 -top-2 grid h-7 w-7 place-items-center rounded-full bg-red-600 text-white"
-            aria-label="Remove photo"
+            aria-label="Remove"
           >
             <FiX />
           </button>
@@ -71,10 +73,10 @@ export default function ImageUpload({
           }`}
         >
           <FiUploadCloud className="h-7 w-7" />
-          {busy ? "Uploading…" : "Click to upload a photo"}
+          {busy ? "Uploading… (videos can take a minute)" : kind === "video" ? "Click to upload a video (MP4)" : "Click to upload a photo"}
           <input
             type="file"
-            accept="image/*"
+            accept={kind === "video" ? "video/*" : "image/*"}
             className="hidden"
             onChange={(e) => {
               const f = e.target.files?.[0];

@@ -21,6 +21,7 @@ import { AwardCard, EventRow, SongCard, VideoCard } from "@/components/cards";
 import { PhotoMarquee, TextMarquee, GlowBlobs } from "@/components/decor";
 import { CountUp, CurtainReveal, Magnetic, Parallax, Reveal, Tilt } from "@/components/motion";
 import { StreamingPlatforms } from "@/components/sections";
+import VideoFeature from "@/components/VideoFeature";
 
 export const revalidate = 60;
 
@@ -105,7 +106,10 @@ export default async function HomePage({
           <Reveal>
             <p className="eyebrow">{t("home.aboutEyebrow")}</p>
             <h2 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">{t("home.aboutTitle")}</h2>
-            <p className="mt-6 line-clamp-6 text-lg leading-relaxed text-fg/85">{bio}</p>
+            <p className="mt-6 text-lg leading-relaxed text-fg/85">{bio.split(/\n{2,}/)[0]}</p>
+            <blockquote className="mt-6 border-l-2 border-accent pl-4 font-display text-xl italic text-fg/90">
+              “{t("about.quote")}”
+            </blockquote>
           </Reveal>
           <Reveal delay={0.1}>
             <Magnetic className="mt-8 inline-block">
@@ -180,6 +184,25 @@ export default async function HomePage({
 
       {/* ================= STREAMING PLATFORMS ================= */}
       <StreamingPlatforms audiomack={links.audiomack} spotify={links.spotify} youtube={links.youtube} />
+
+      {/* ================= BACKGROUND VIDEO + QUOTE ================= */}
+      <VideoFeature
+        video={links.featureVideo}
+        poster={site.images.music}
+        quote={t("about.quote")}
+        by={site.name}
+      >
+        <Magnetic>
+          <a href={links.youtube} target="_blank" rel="noopener noreferrer" className="btn bg-[#d4af37] text-black hover:bg-[#e6c866]">
+            <SiYoutube /> {t("hero.watch")}
+          </a>
+        </Magnetic>
+        <Magnetic>
+          <Link href="/contact" className="btn border border-white/70 text-white hover:bg-white/10">
+            {t("home.ctaTitle")} <FiArrowRight />
+          </Link>
+        </Magnetic>
+      </VideoFeature>
 
       {/* ================= VIDEOS (8) ================= */}
       <section className="relative isolate mt-32 py-24">

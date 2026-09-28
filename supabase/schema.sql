@@ -75,7 +75,8 @@ alter table public.fo_settings
   add column if not exists studio_hours text,
   add column if not exists studio_tiktok text,
   add column if not exists studio_image text,
-  add column if not exists studio_map_url text;
+  add column if not exists studio_map_url text,
+  add column if not exists feature_video text;
 
 -- ---------- Content ----------
 create table if not exists public.fo_events (

@@ -15,13 +15,21 @@ export const site = {
 
   /** Logo shown next to the name. Replace public/logo.svg with the real logo
    *  (or put e.g. logo.png in /public and change this path). */
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
   /**
    * While the database is empty, show the starter songs / videos and the
    * DUMMY events / awards in lib/placeholder.ts. Set to false to hide them.
    */
   showPlaceholders: true,
+
+  /**
+   * Background video for the quote section on the home page.
+   * Upload it in Admin → Settings (recommended), or put an .mp4 in
+   * /public/videos/ and write e.g. "/videos/feature.mp4" here.
+   * Empty = a photo is shown instead.
+   */
+  featureVideo: "",
 
   /** Main streaming links (used by the big buttons) */
   audiomackProfile: "https://audiomack.com/fehintola-onabanjo-6a5e49d26d977",
@@ -39,7 +47,7 @@ export const site = {
     spotify: "https://open.spotify.com/artist/6CCCPYtesTZCt15q9m87fM",
     appleMusic: "",
     boomplay: "",
-    whatsapp: "2348023069417", // CHECK: is this number on WhatsApp?
+    whatsapp: "2348163886533", // CHECK: is this number on WhatsApp?
   },
 
   /** Bookings & enquiries */
@@ -51,8 +59,8 @@ export const site = {
 
   /** Numbers in the animated stats row (from Audiomack & YouTube, Sept 2026) */
   stats: {
-    songs: 15, // tracks on Ara Edide + Itura
-    albums: 2,
+    songs: 20, // songs released (albums + singles)
+    albums: 4,
     subscribers: 1200, // YouTube
     views: 27, // YouTube views, in thousands (shown as 27K+)
   },

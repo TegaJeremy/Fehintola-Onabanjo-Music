@@ -78,11 +78,15 @@ export default function FieldInput({
     );
   }
 
-  if (field.type === "image") {
+  if (field.type === "image" || field.type === "video") {
     return (
       <div>
         {label}
-        <ImageUpload value={(value as string) || ""} onChange={onChange} />
+        <ImageUpload
+          value={(value as string) || ""}
+          onChange={onChange}
+          kind={field.type === "video" ? "video" : "image"}
+        />
         {help}
       </div>
     );

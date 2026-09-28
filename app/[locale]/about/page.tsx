@@ -69,6 +69,12 @@ export default async function AboutPage({ params }: Props) {
               <p key={i}>{p}</p>
             ))}
           </div>
+          <blockquote className="mt-8 border-l-2 border-accent pl-5 font-display text-2xl italic leading-snug">
+            “{t("about.quote")}”
+            <footer className="mt-3 font-sans text-xs not-italic font-semibold uppercase tracking-[0.25em] text-accent">
+              — {site.name}
+            </footer>
+          </blockquote>
         </div>
       </section>
 

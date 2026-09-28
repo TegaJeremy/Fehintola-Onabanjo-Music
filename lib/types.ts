@@ -73,4 +73,5 @@ export type Settings = {
   studio_tiktok?: string | null;
   studio_image?: string | null;
   studio_map_url?: string | null;
+  feature_video?: string | null;
 };

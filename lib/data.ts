@@ -174,6 +174,7 @@ export function resolveSite(settings: Settings | null) {
   return {
     ...resolveLinks(settings),
     logo: pick(s.logo_url, site.logo),
+    featureVideo: pick(s.feature_video, site.featureVideo),
     phone2: pick(s.phone2, site.contact.phone2),
     heroSlides: [
       pick(s.hero_image_1, d[0]),

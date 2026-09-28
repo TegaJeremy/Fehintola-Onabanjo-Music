@@ -12,6 +12,7 @@ export type FieldType =
   | "datetime"
   | "select"
   | "image"
+  | "video"
   | "i18n" // one line, in 4 languages
   | "i18n-textarea"; // paragraph, in 4 languages
 
@@ -154,6 +155,11 @@ export const settingsGroups: { title: string; help?: string; fields: Field[] }[]
       { name: "hero_image_2", label: "Home slideshow – photo 2", type: "image" },
       { name: "hero_image_3", label: "Home slideshow – photo 3", type: "image" },
     ],
+  },
+  {
+    title: "Background video (home page quote section)",
+    help: "A short MP4 (under 100 MB, 20–60 seconds is ideal). It plays silently on a loop behind her quote. Leave empty to show a photo instead.",
+    fields: [{ name: "feature_video", label: "Background video", type: "video" }],
   },
   {
     title: "Text",
