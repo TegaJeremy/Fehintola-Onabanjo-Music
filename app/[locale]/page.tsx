@@ -66,7 +66,7 @@ export default async function HomePage({
   return (
     <>
       {/* ================= HERO SLIDESHOW ================= */}
-      <HeroSlider slides={slides} name={site.name} nowPlaying={`${t("hero.nowPlaying")} · ${songs[0]?.title ?? ""}`} logo={links.logo}>
+      <HeroSlider slides={slides} name={site.name} nowPlaying={`${t("hero.nowPlaying")} · ${songs[0]?.title ?? ""}`}>
         <Magnetic>
           <a href={links.audiomack} target="_blank" rel="noopener noreferrer" className="btn-primary">
             <SiAudiomack /> {t("hero.listen")}

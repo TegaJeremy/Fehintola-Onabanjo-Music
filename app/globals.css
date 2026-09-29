@@ -5,12 +5,12 @@
 
 /* ---------- Colour tokens (light) ---------- */
 :root {
-  --bg: #efe8dc; /* soft warm cream (not bright white) */
-  --bg-soft: #e6ddcd;
-  --card: #f7f2ea;
+  --bg: #fbf9f5; /* soft white (default theme) */
+  --bg-soft: #f3efe7;
+  --card: #ffffff;
   --fg: #1c1610;
   --muted: #65594b;
-  --line: #d9ccb5;
+  --line: #e6dccb;
   --accent: #946f0c; /* deep gold, readable on cream */
   --accent-strong: #7a5b08;
   --accent-fg: #ffffff;
@@ -21,18 +21,19 @@
 
 /* ---------- Colour tokens (dark) ---------- */
 .dark {
-  --bg: #0c0a07;
-  --bg-soft: #15110c;
-  --card: #1a150f;
-  --fg: #f6efe3;
-  --muted: #b2a590;
-  --line: #2e261b;
-  --accent: #d4af37; /* bright gold on black */
+  /* "dark" mode = deep royal navy instead of black */
+  --bg: #0f1a33;
+  --bg-soft: #13213f;
+  --card: #182a4d;
+  --fg: #f4f1ea;
+  --muted: #aeb8cf;
+  --line: #27395f;
+  --accent: #d4af37; /* gold on navy */
   --accent-strong: #e6c866;
-  --accent-fg: #120e08;
+  --accent-fg: #0f1a33;
   --gold: #d4af37;
-  --blue: #5b7cff;
-  --blue-soft: #8aa2ff;
+  --blue: #6f8fff;
+  --blue-soft: #9db2ff;
 }
 
 @theme inline {

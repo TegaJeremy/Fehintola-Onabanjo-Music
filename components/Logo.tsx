@@ -1,7 +1,7 @@
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
-/** Logo image + name. Swap the image in public/logo.svg (see lib/site.ts). */
+/** Logo image + name. Swap the image in public/logo.png (see lib/site.ts). */
 export default function Logo({
   className,
   size,
@@ -21,13 +21,13 @@ export default function Logo({
       <img
         src={src || site.logo}
         alt={`${site.name} logo`}
-        width={size ?? 36}
-        height={size ?? 36}
+        width={Math.round((size ?? 44) * 1.17)}
+        height={size ?? 44}
         className={cn(
-          "shrink-0 rounded-full object-cover transition duration-700 group-hover:rotate-[360deg]",
-          !size && "h-8 w-8 sm:h-9 sm:w-9"
+          "w-auto shrink-0 object-contain drop-shadow-sm transition duration-500 group-hover:scale-105",
+          !size && "h-10 sm:h-12"
         )}
-        style={size ? { width: size, height: size } : undefined}
+        style={size ? { height: size } : undefined}
       />
       {showName && (
         <span className="flex min-w-0 flex-col truncate font-display text-[13.5px] font-semibold leading-[1.15] tracking-wide sm:flex-row sm:gap-1.5 sm:text-xl sm:leading-none">

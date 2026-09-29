@@ -12,6 +12,7 @@ export default function ThemeProvider({
       attribute="class"
       defaultTheme="light"
       enableSystem={false}
+      storageKey="fo-theme"
       disableTransitionOnChange
     >
       {children}

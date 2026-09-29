@@ -23,13 +23,11 @@ export default function HeroSlider({
   slides,
   name,
   nowPlaying,
-  logo,
   children,
 }: {
   slides: HeroSlide[];
   name: string;
   nowPlaying: string;
-  logo: string;
   children?: React.ReactNode; // buttons
 }) {
   const [index, setIndex] = useState(0);
@@ -127,8 +125,6 @@ export default function HeroSlider({
             transition={{ duration: 0.8, ease: EASE }}
             className="hidden items-center gap-3 md:flex"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={logo} alt="" className="h-10 w-10 rounded-full" />
             <h1 className="text-sm font-semibold uppercase tracking-[0.3em] text-fg/80">{name}</h1>
           </motion.div>
           <h1 className="sr-only md:hidden">{name}</h1>

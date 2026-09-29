@@ -14,7 +14,7 @@ create table if not exists public.fo_admins (
   email text,
   created_at timestamptz default now()
 );
--- role: 'admin' = full control incl. team; 'editor' = content only
+-- role: 'admin' = full control incl. team; 'editor' = content only=-=
 alter table public.fo_admins
   add column if not exists role text not null default 'admin',
   add column if not exists name text,
